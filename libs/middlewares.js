@@ -5,7 +5,7 @@ module.exports = app => {
   app.set("json spaces", 4);
     app.use(bodyParser.json());
     app.use((req, res, next) => {
-        console.log(req);
+        // console.log(req);
         delete req.body.id;
         next();
     });
