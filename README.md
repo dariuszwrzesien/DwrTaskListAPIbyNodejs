@@ -1,10 +1,10 @@
 [![Build Status](https://travis-ci.org/dariuszwrzesien/DwrTaskListAPIbyNodejs.svg?branch=master)](https://travis-ci.org/dariuszwrzesien/DwrTaskListAPIbyNodejs)
 
-*Install modules:
-npm install
+###Install modules:
+`npm install`
 
-*Start app
-npm start
+###Start app
+`npm start`
 
-*based on:
+######based on:
 https://github.com/caio-ribeiro-pereira/building-apis-with-nodejs
