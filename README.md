@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dariuszwrzesien/DwrTaskListAPIbyNodejs.svg?branch=master)](https://travis-ci.org/dariuszwrzesien/DwrTaskListAPIbyNodejs)
+
 *Install modules:
 npm install
 
