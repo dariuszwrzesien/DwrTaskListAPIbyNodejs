@@ -6,5 +6,8 @@
 ###Start app
 `npm start`
 
+###Test app
+`npm test`
+
 ######based on:
 https://github.com/caio-ribeiro-pereira/building-apis-with-nodejs
