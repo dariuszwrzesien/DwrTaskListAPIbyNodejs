@@ -6,7 +6,8 @@
   "scripts": {
     "start": "babel-node index.js",
     "test": "NODE_ENV=test mocha test/**/*.js",
-    "cover": "NODE_ENV=test babel-node node_modules/.bin/istanbul cover --dir test/coverage _mocha --report lcovonly test/**/*.js "
+    "cover": "NODE_ENV=test babel-node node_modules/.bin/istanbul cover --dir test/coverage _mocha --report lcovonly test/**/*.js ",
+    "coveralls": "npm run cover -- --report lcovonly && cat ./test/coverage/lcov.info | coveralls"
   },
   "author": "dariuszwrzesien@gmail.com",
   "dependencies": {
