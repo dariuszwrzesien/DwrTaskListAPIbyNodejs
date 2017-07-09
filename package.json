@@ -4,7 +4,8 @@
   "description": "Task list API",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node index.js"
+    "start": "babel-node index.js",
+    "test": "NODE_ENV=test mocha test/**/*.js"
   },
   "author": "dariuszwrzesien@gmail.com",
   "dependencies": {
