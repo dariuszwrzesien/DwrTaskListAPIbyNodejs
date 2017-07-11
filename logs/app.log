@@ -1,0 +1,29 @@
+{"level":"info","message":"[Tue Jul 11 2017 21:09:02 GMT+0200 (CEST)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at`, `updated_at` FROM `Users` AS `Users` WHERE `Users`.`email` = 'd@mail.com' LIMIT 1;","timestamp":"2017-07-11T19:09:02.598Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:09:02 +0000] \"POST /token HTTP/1.1\" 401 12\n","timestamp":"2017-07-11T19:09:02.624Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:10:48 GMT+0200 (CEST)] Executing (default): INSERT INTO `Users` (`id`,`name`,`password`,`email`,`created_at`,`updated_at`) VALUES (NULL,'admin','$2a$10$ysr2c.NrBFU1ZS2w8Y8F5Oxs3MA7sdDh/4nydwxl8mwKTqGrgQxAe','admin@example.com','2017-07-11 19:10:48.668 +00:00','2017-07-11 19:10:48.668 +00:00');","timestamp":"2017-07-11T19:10:48.773Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:10:48 +0000] \"POST /users HTTP/1.1\" 200 244\n","timestamp":"2017-07-11T19:10:48.935Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:11:35 GMT+0200 (CEST)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at`, `updated_at` FROM `Users` AS `Users` WHERE `Users`.`email` = 'admin@example.com' LIMIT 1;","timestamp":"2017-07-11T19:11:35.902Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:11:35 +0000] \"POST /token HTTP/1.1\" 200 114\n","timestamp":"2017-07-11T19:11:35.989Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:12:59 +0000] \"POST /tasks HTTP/1.1\" 400 1091\n","timestamp":"2017-07-11T19:12:59.548Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:13:29 GMT+0200 (CEST)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at`, `updated_at` FROM `Users` AS `Users` WHERE `Users`.`email` = 'admin@example.com' LIMIT 1;","timestamp":"2017-07-11T19:13:29.388Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:13:29 +0000] \"POST /token HTTP/1.1\" 200 114\n","timestamp":"2017-07-11T19:13:29.470Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:14:11 +0000] \"POST /tasks HTTP/1.1\" 400 1091\n","timestamp":"2017-07-11T19:14:11.715Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:15:22 +0000] \"POST /tasks HTTP/1.1\" 400 1091\n","timestamp":"2017-07-11T19:15:22.045Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:15:48 +0000] \"POST /tasks HTTP/1.1\" 400 1091\n","timestamp":"2017-07-11T19:15:48.211Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:16:22 +0000] \"POST /tasks HTTP/1.1\" 401 -\n","timestamp":"2017-07-11T19:16:22.339Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:16:32 GMT+0200 (CEST)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at`, `updated_at` FROM `Users` AS `Users` WHERE `Users`.`id` = 110;","timestamp":"2017-07-11T19:16:32.460Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:16:32 +0000] \"POST /tasks HTTP/1.1\" 412 56\n","timestamp":"2017-07-11T19:16:32.471Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:16:47 GMT+0200 (CEST)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at`, `updated_at` FROM `Users` AS `Users` WHERE `Users`.`id` = 110;","timestamp":"2017-07-11T19:16:47.824Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:16:47 +0000] \"POST /tasks HTTP/1.1\" 412 56\n","timestamp":"2017-07-11T19:16:47.830Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:18:01 GMT+0200 (CEST)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at`, `updated_at` FROM `Users` AS `Users` WHERE `Users`.`id` = 110;","timestamp":"2017-07-11T19:18:01.057Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:18:01 +0000] \"POST /tasks HTTP/1.1\" 412 56\n","timestamp":"2017-07-11T19:18:01.062Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:18:50 GMT+0200 (CEST)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at`, `updated_at` FROM `Users` AS `Users` WHERE `Users`.`id` = 110;","timestamp":"2017-07-11T19:18:50.713Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:18:50 GMT+0200 (CEST)] Executing (default): INSERT INTO `Tasks` (`id`,`title`,`done`,`created_at`,`updated_at`,`user_id`) VALUES (NULL,'pierwszy',0,'2017-07-11 19:18:50.722 +00:00','2017-07-11 19:18:50.722 +00:00',110);","timestamp":"2017-07-11T19:18:50.726Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:18:50 +0000] \"POST /tasks HTTP/1.1\" 200 171\n","timestamp":"2017-07-11T19:18:50.830Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:19:22 +0000] \"POST /tasks HTTP/1.1\" 401 -\n","timestamp":"2017-07-11T19:19:22.252Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:19:28 GMT+0200 (CEST)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at`, `updated_at` FROM `Users` AS `Users` WHERE `Users`.`id` = 110;","timestamp":"2017-07-11T19:19:28.182Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:19:28 GMT+0200 (CEST)] Executing (default): INSERT INTO `Tasks` (`id`,`title`,`done`,`created_at`,`updated_at`,`user_id`) VALUES (NULL,'pierwszy',0,'2017-07-11 19:19:28.184 +00:00','2017-07-11 19:19:28.184 +00:00',110);","timestamp":"2017-07-11T19:19:28.186Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:19:28 +0000] \"POST /tasks HTTP/1.1\" 200 171\n","timestamp":"2017-07-11T19:19:28.293Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:19:35 GMT+0200 (CEST)] Executing (default): SELECT `id`, `name`, `password`, `email`, `created_at`, `updated_at` FROM `Users` AS `Users` WHERE `Users`.`id` = 110;","timestamp":"2017-07-11T19:19:35.485Z"}
+{"level":"info","message":"[Tue Jul 11 2017 21:19:35 GMT+0200 (CEST)] Executing (default): SELECT `id`, `title`, `done`, `created_at`, `updated_at`, `user_id` FROM `Tasks` AS `Tasks` WHERE `Tasks`.`user_id` = 110;","timestamp":"2017-07-11T19:19:35.493Z"}
+{"level":"info","message":"::1 - - [11/Jul/2017:19:19:35 +0000] \"GET /tasks HTTP/1.1\" 200 412\n","timestamp":"2017-07-11T19:19:35.498Z"}
